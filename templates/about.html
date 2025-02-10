@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/app.css')}}?v=1">
     <title>My Website - About</title>
 </head>
 <body>
     <h1>Jamila McLymont</h1>
-    <p>Write a short paragraph about yourself.</p>
+    <img src="{{ url_for('static', filename='comscigirly.jpg') }}" alt="Animated Girl">
+    <section></section>
+    <p>Hi! My name is Jamila and I currently attend the University of the West Indies. I am majoring in Computer Science where I am aiming to become a Web Developer. I love to read, journal, watch movies and code in my free time. </p>
 </body>
 </html>
